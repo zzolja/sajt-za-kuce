@@ -1,0 +1,92 @@
+body{
+    background-image: url('css/pexels-caio-69372.jpg');
+    background-size: cover;
+    text-align: center;
+    background-color: antiquewhite;
+    margin: 0px;
+}
+
+
+p{
+    font-family: serif;
+    color: black;
+}
+.cena{
+    color: black;
+
+}
+.cena:hover{
+    color: rgb(248, 182, 15);
+    font-style: oblique;
+}   
+.nudimo{
+    border: 2px dotted burlywood;
+    font-size: x-large;
+}
+ul{
+    list-style-type:none;
+    margin: 0px;
+    padding: 0px;
+    background-color: burlywood;
+    overflow: hidden;
+ }
+ li a{
+    
+ color: black;
+ background-color: burlywood;
+ padding: 10px;
+ text-decoration: none;
+ display: block;
+ height: 25px ;
+ font-size:20px ;
+ padding: 5px;
+ }
+ li{
+     float: left;
+     margin: 2px;
+ }
+ li a:hover{
+     background-color: white;
+     color: burlywood;
+     transition: 0.3s;
+ }
+     
+.lista{
+    float: left;
+    text-align: justify;
+    background-color: burlywood;
+    color: antiquewhite;
+    border: 1px dotted burlywood;
+    position: fixed;
+
+
+}
+.lista:hover{
+    transition: 0,5s;
+    color: black;
+    border-bottom: 2px dotted  goldenrod;
+    border-left: 2px dotted brown;
+    border-right: 2px dotted brown;
+    border-top: 2px dotted goldenrod;
+}
+
+@media screen and (min-width:300px) and (max-width:420px){
+      
+    .navbar {
+        height: 150px;
+        display: block;
+        padding-top: 20px;
+    }
+
+    .navbar img{
+        display: block;
+        margin: 0px auto;
+    }
+
+    .navbar ul {
+        padding: 0px;
+    }
+}
+.par{
+    text-align: center;
+}

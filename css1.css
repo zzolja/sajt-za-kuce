@@ -1,0 +1,122 @@
+body{
+    background-image: url('css/kako-da-zastitite-psa-od-vrucine.jpg');
+    background-size: cover;
+    text-align: center;
+    background-color: burlywood;
+    margin: 0px;
+    padding: auto;
+
+}
+
+.topnav{
+    list-style-type:none;
+   margin: 0px;
+   padding: 0px;
+   background-color: burlywood;
+   overflow: hidden;
+}
+ a{
+    color: black;
+    background-color:burlywood ;
+    padding: 10px;
+    text-decoration: none;
+    display: block;
+    height: 25px ;
+    font-size:20px ;
+    border: 2px solid black;
+    padding: 5px;
+    }
+    li{
+        float: left;
+        margin: 2px;
+    }
+ a:hover{
+        background-color: white;
+        color: burlywood;
+        transition: 0.3s;
+    }
+
+.pr{
+    width: 300px;
+    background-color: white;
+    box-shadow: 0 0 20 0px rgb(220, 47, 255);
+    top: 30%;
+    left: 30%;
+    transform: translate(-50px,-50px);
+    position: absolute;
+    border: 2px solid purple;
+}
+form{
+    margin: 25px;
+}
+.slika{
+    background-image: url('css/kucaa.jpg');
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    background-color: burlywood;
+    border: 5px solid black;
+
+    animation-name: kvadrat;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes kvadrat{
+    
+    0%{
+        top: 20px;
+        left: 20px;
+    }
+    25%{
+        top: 25px;
+        left: 220px;
+    }
+    50%{
+        top: 220px;
+        left: 220px;
+    }
+    75%{
+        top: 220px;
+        left: 20px;
+    }
+    100%{
+        top: 20px;
+        background-color: black;
+    }
+
+}
+@media screen and (min-width:300px) and (max-width:420px){
+      
+    .navbar {
+        height: 150px;
+        display: block;
+        padding-top: 20px;
+    }
+
+    .navbar img{
+        display: block;
+        margin: 0px auto;
+    }
+
+    .navbar ul {
+        padding: 0px;
+    }
+}
+.dugme{
+    background-color: black;
+    color: aliceblue;
+}
+footer{
+    background-color: burlywood;
+    color: antiquewhite;
+    border:  2px dotted black;
+
+}
+.dugme:hover{
+    background-color:white ;
+    color: burlywood;
+}
+footer:hover{
+    border: 2px dotted burlywood;
+}
